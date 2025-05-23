@@ -10,7 +10,7 @@ def fetch_ibdb_data():
 
     # Initialize browser
     browser = webdriver.Chrome()
-    browser.set_page_load_timeout(500)
+    browser.set_page_load_timeout(600)
 
     root_url = "https://www.ibdb.com"
     scraped_results = []
